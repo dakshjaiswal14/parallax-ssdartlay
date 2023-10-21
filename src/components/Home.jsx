@@ -11,7 +11,7 @@ import "../styles/bg.css";
 import About from "./About";
 // import ArtGallery from "./ArtGallery";
 import Services from "./Services";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 function Home() {
   const parallax = useRef(!null);
@@ -89,7 +89,7 @@ function Home() {
             <About />
             {/* <ArtGallery /> */}
             <Services />
-            <Contact />
+            {/* <Contact /> */}
           </div>
         </ParallaxLayer>
       </Parallax>
